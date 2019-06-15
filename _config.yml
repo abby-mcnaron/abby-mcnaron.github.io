@@ -1,5 +1,5 @@
-#theme: jekyll-theme-midnight
-theme: jekyll-theme-tactile
+theme: jekyll-theme-midnight
+#theme: jekyll-theme-tactile
 
 defaults:
   -
@@ -9,10 +9,16 @@ defaults:
     values:
       layout: "default"
 
+#  -
+#    scope:
+#      path: "projects"
+#      type: "pages"
+#    values:
+#      layout: "project"
+#      author: "Abby"
+
   -
     scope:
-      path: "projects"
-      type: "pages"
+      path: "assets/images"
     values:
-      layout: "project"
-      author: "Abby"
+      image: true
