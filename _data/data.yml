@@ -1,0 +1,178 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Abby McNaron
+    tagline: Java Software Developer
+    avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: abby.mcnaron@gmail.com
+    phone: ‪(206) 659-5347
+    website: abby-mcnaron.dev #do not add http://
+    linkedin: abby-mcnaron
+    github: abby-mcnaron
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Reading
+        link:
+
+      - item: Video Games
+        link:
+        
+    traits:
+      - item: Inquisitive
+        desc: I have excellent information gathering skills and am always asking questions.
+      - item: Autonomous
+        desc: If I see that something needs to get done I handle it without being asked.
+      - item: Flexible
+        desc: I strive to be adaptable in my work and am always willing to help others out as needed.
+
+    otherskills:
+      title: Other Skills
+      skillset:
+        - item: Agile (Scrum)
+        - item: Git
+        - item: Gradle
+        - item: Jenkins
+        - item: Oracle
+        - item: RedHat Linux
+        - item: SOLR
+        - item: Unit Testing
+        
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Hardworking Java Developer with 7+ years experience. My area of focus 
+      is webservices and backend systems. At FedEx, the webservices I have 
+      supported handle hundreds of millions of transactions a day and provide 
+      invaluable data processing and storage. I have been commended by management 
+      for my thoroughness on projects. Seeking a company where I can provide 
+      valuable contributions and continue to grow my development skill set.
+education:
+    - degree: Bachelors of Business Information Systems
+      university: Mississippi State University
+      time: 2009 - 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Associates of University Transfer
+      university: Meridian Community College
+      time: 2007 - 2009
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Senior Programmer Analyst Advisor
+      time: Mar 2020 - Present
+      company: FedEx Services, Memphis TN
+      details: |
+        - Developed on a new REST webservice to replace a legacy system and enable faster business functionality realization.
+    - role: Senior Programmer Analyst
+      time: Aug 2017 - Mar 2020
+      company: FedEx Services, Memphis TN
+      details: |
+        - Developed account maintenance functionality and supported adopter testing for a high volume distributed Java web service.
+        - Wrote technical specifications of a new data structure for account history.
+        - Developed a data migration tool for moving account history from mainframe databases to an XML document datastore.
+
+    - role: Programmer Analyst
+      time: Jun 2015 - Aug 2017
+      company: FedEx Services, Memphis TN
+      details: |
+        - Joined a project team for migrating account functionality and data from mainframe systems to a distributed Java web service and datastore.
+        - Designed XML data configuration changes to support large customer business initiatives. This work allowed business teams to better understand and search their data.
+
+    - role: Associate Programmer Analyst
+      time: Jun 2012 - June 2015
+      company: FedEx Services, Memphis TN
+      details: |
+        - Supported Test and Production environments of a Java enterprise web service backed by Oracle database clusters.
+        - Stepped up to handle daily stand-up, sprint planning, and requirements documentation after the loss of our project manager.
+
+projects:
+    title:
+    intro:
+    assignments:
+      - title:
+        link:
+        tagline:
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset: #100-Expert,80-Advanced,60-Intermediate,40-Novice,20-Fundamental Awareness
+      - name: Agile (Scrum)
+        level: 50% 
+
+      - name: Bash
+        level: 75%
+
+      - name: Git
+        level: 50%
+
+      - name: Gradle
+        level: 25%
+
+      - name: Java
+        level: 100%
+
+      - name: Jenkins
+        level: 25%
+
+      - name: NoSQL
+        level: 50%
+
+      - name: RedHat Linux
+        level: 75%
+
+      - name: REST
+        level: 50%
+
+      - name: SOAP
+        level: 75%
+
+      - name: Spring Framework
+        level: 75%
+      
+      - name: SQL
+        level: 100%
+      
+      - name: Unit Testing
+        level: 50%
+
+      - name: XML
+        level: 75%
+      
+
+footer: >
+    &copy; 2020 Abby McNaron -- Hosted on <a href="https://pages.github.com/" target="_blank" rel="nofollow"> GitHub Pages </a> <br>
+      <a href="https://jekyllrb.com/" target="_blank" rel="nofollow">Jekyll Theme</a> designed by 
+      <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
