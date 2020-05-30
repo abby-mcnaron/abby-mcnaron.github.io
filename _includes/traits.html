@@ -1,0 +1,16 @@
+{% assign traits = site.data.data.sidebar.traits %}
+{% if traits %}
+<div class="traits-container container-block">
+
+  <h2 class="container-block-title">
+    Traits
+  </h2>
+
+  <ul class="list-unstyled traits-list">
+    {% for trait in traits %}
+        <li><b>{{ trait.item }}</b> - {{trait.desc}} </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//softskills-->
+{% endif %}
