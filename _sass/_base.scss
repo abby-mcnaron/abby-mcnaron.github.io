@@ -13,6 +13,11 @@ h1, h2, h3, h4, h5, h6  {
     font-weight: 700;
 }
 
+hr {
+    height:2px;
+    background-color:$theme-color;
+}
+
 a {
     color: darken($theme-color, 15%);
     &:hover {
@@ -161,6 +166,16 @@ p {
             }
         }
     }
+
+    .awards-list {
+        margin-bottom: 0;
+        li {
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
 }
 
 .main-wrapper {
@@ -263,6 +278,46 @@ p {
     .level-bar-inner {
         height: 12px;
         background: lighten($theme-color, 15%);
+    }
+    .cols {
+        margin-bottom: 15px;
+        column-count: 3;
+        column-rule: 10px double #ff00ff;
+        column-width: 400px;
+        column-rule-style: double;
+    }
+    .skills-table {
+        border-radius: 25px;
+        width: 100%;
+        border: 10px solid #ddd;
+        border-collapse: separate; 
+    }
+
+    .skills_th {
+        height: 50px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        background-color: #5bb66f;
+        color: #f4ffff;
+    }
+
+    .skills-tr {
+        margin-top: 0;
+        margin-bottom: 12px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .skills-td {
+        border-right: 1px solid #ddd;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 12px;
+        width: 20%;
     }
 }
 

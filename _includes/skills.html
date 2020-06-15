@@ -9,23 +9,82 @@
     </span>
     {{ skills.title }}
   </h2>
-
-  <div class="skillset">
-
-    {% for skill in skills.toolset %}
-    <div class="item">
-
-      <h3 class="level-title">{{ skill.name }}</h3>
-
-      <div class="level-bar">
-        <div class="level-bar-inner" data-level="{{ skill.level }}">
-        </div>
-      </div><!--//level-bar-->
-
-    </div><!--//item-->
-    {% endfor %}
-
-  </div>
+  {% if skills.type == "table" %}
+    <div class="skillset">
+      <div class="item">
+      <table class="skills-table">
+          <tr>
+            <th class="skills_th">Languages</th>
+            <th class="skills_th">DevOps</th>
+            <th class="skills_th">Frameworks</th>
+            <th class="skills_th">Web Services</th>
+            <th class="skills_th">Databases</th>
+          </tr>
+          {% assign num = skills.toolset.size %}
+          {% for i in  (0..num) %}
+          {% capture count %}{% increment _count %}{% endcapture %}          
+            {% if i < skills.toolset.size %}
+            <tr class="skills-tr">
+              <td class="skills-td"><h3 class="level-title">{{ skills.toolset[i].name }}</h3></td>
+              <td class="skills-td"><h3 class="level-title">{{ skills.devops[i].name }}</h3></td>
+              <td class="skills-td"><h3 class="level-title">{{ skills.frameworks[i].name }}</h3></td>
+              <td class="skills-td"><h3 class="level-title">{{ skills.web[i].name }}</h3></td>
+              <td class="skills-td"><h3 class="level-title">{{ skills.databases[i].name }}</h3></td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+      </table>
+      </div> <!-- //item -->
+    </div>
+  {% else %}
+    <div class="skillset">
+      {% for skill in skills.toolset %}
+      <div class="item">
+        <h3 class="level-title">{{ skill.name }}</h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+      </div><!--//item-->
+      {% endfor %}
+      {% for skill in skills.devops %}
+      <div class="item">
+        <h3 class="level-title">{{ skill.name }}</h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+      </div><!--//item-->
+      {% endfor %}
+      {% for skill in skills.frameworks %}
+      <div class="item">
+        <h3 class="level-title">{{ skill.name }}</h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+      </div><!--//item-->
+      {% endfor %}
+      {% for skill in skills.web %}
+      <div class="item">
+        <h3 class="level-title">{{ skill.name }}</h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+      </div><!--//item-->
+      {% endfor %}
+      {% for skill in skills.databases %}
+      <div class="item">
+        <h3 class="level-title">{{ skill.name }}</h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ skill.level }}">
+          </div>
+        </div><!--//level-bar-->
+      </div><!--//item-->
+      {% endfor %}
+    </div>
+  {% endif %}
 
 </section><!--//skills-section-->
 {% endif %}

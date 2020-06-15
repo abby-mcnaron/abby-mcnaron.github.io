@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Abby McNaron
-    tagline: Java Software Developer
+    tagline: Senior Software Developer
     avatar: profile_abby.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -55,7 +55,23 @@ sidebar:
         - item: RedHat Linux
         - item: SOLR
         - item: Unit Testing
-        
+
+    awards:
+      - item: Bravo Zulu
+        date: March 2020
+        desc: Enterprise web service support
+      - item: Bravo Zulu
+        date: August 2017
+        desc: Customer IT modernization project support
+      - item: Bravo Zulu
+        date: October 2015
+        desc: FedEx Office enterprise system upgrades
+      - item: Hall of Fame
+        date: August 2015
+        desc: Mainframe retirement and pricing project support
+      - item: Hall of Fame
+        date: March 2015
+        desc: Enterprise Address web service rollout
 
 career-profile:
     title: Career Profile
@@ -64,8 +80,7 @@ career-profile:
       is webservices and backend systems. At FedEx, the webservices I have 
       supported handle hundreds of millions of transactions a day and provide 
       invaluable data processing and storage. I have been commended by management 
-      for my thoroughness on projects. Seeking a company where I can provide 
-      valuable contributions and continue to grow my development skill set.
+      for my thoroughness on projects.
 education:
     - degree: Bachelors of Business Information Systems
       university: Mississippi State University
@@ -78,9 +93,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: Associates of University Transfer
-      university: Meridian Community College
-      time: 2007 - 2009
+    - degree:
+      university:
+      time:
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -94,20 +109,21 @@ experiences:
       time: Mar 2020 - Present
       company: FedEx Services, Memphis TN
       details: |
-        - Developed on a new REST webservice to replace a legacy system and enable faster business functionality realization.
+        - Developed on a new REST web service to replace a legacy system and enable faster business functionality realization.
+    
     - role: Senior Programmer Analyst
       time: Aug 2017 - Mar 2020
       company: FedEx Services, Memphis TN
       details: |
-        - Developed account maintenance functionality and supported adopter testing for a high volume distributed Java web service.
-        - Wrote technical specifications of a new data structure for account history.
-        - Developed a data migration tool for moving account history from mainframe databases to an XML document datastore.
+        - Wrote technical specifications for a new data structure for account history.
+        - Created a data migration application for moving account history from mainframe databases into a distributed XML document datastore.
+        - Worked on a high volume Java web service developing account maintenance capabilities
 
     - role: Programmer Analyst
       time: Jun 2015 - Aug 2017
       company: FedEx Services, Memphis TN
       details: |
-        - Joined a project team for migrating account functionality and data from mainframe systems to a distributed Java web service and datastore.
+        - Migrated account functionality and data from mainframe systems to a distributed Java web service and datastore.
         - Designed XML data configuration changes to support large customer business initiatives. This work allowed business teams to better understand and search their data.
 
     - role: Associate Programmer Analyst
@@ -118,59 +134,93 @@ experiences:
         - Stepped up to handle daily stand-up, sprint planning, and requirements documentation after the loss of our project manager.
 
 projects:
-    title:
+    title: Projects
     intro:
     assignments:
-      - title:
+      - title: Country web service
         link:
-        tagline:
+        tagline: Development & Support
+        tech: Java, Spring, REST, JSON, SQL, Jenkins, SonarQube, Gradle, PCF, Hikari DB
+      - title: Asynchronous web service
+        link: 
+        tagline: Support & Re-Architect
+        tech: Java, Spring, SQL
+      - title: Customer Account Management
+        link:
+        tagline: Development, Support, & Requirements
+        tech: Java, Spring, SOAP, JMS
+      - title: Common Data Service
+        link:
+        tagline: Development, Support, & Project Management
+        tech: Java, Spring, SQL, NoSQL, JMS, XML, SOAP, Python, Groovy, Bash, ANT, Linux, Tomcat
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Technical Skills
+    type: table
     toolset: #100-Expert,80-Advanced,60-Intermediate,40-Novice,20-Fundamental Awareness
-      - name: Agile (Scrum)
-        level: 50% 
-
       - name: Bash
+        type: lang
         level: 75%
-
-      - name: Git
+      - name: Groovy
         level: 50%
-
-      - name: Gradle
-        level: 25%
-
       - name: Java
         level: 100%
-
-      - name: Jenkins
+      - name: JSON
         level: 25%
-
       - name: NoSQL
         level: 50%
-
-      - name: RedHat Linux
-        level: 75%
-
-      - name: REST
+      - name: Python
         level: 50%
-
-      - name: SOAP
-        level: 75%
-
-      - name: Spring Framework
-        level: 75%
-      
       - name: SQL
         level: 100%
-      
-      - name: Unit Testing
-        level: 50%
-
       - name: XML
         level: 75%
-      
+    devops:
+      - name: Agile (Scrum)
+        level: 50%
+      - name: ANT
+        level: 50%
+      - name: Git
+        level: 50%
+      - name: Gradle
+        level: 25%
+      - name: Jenkins
+        level: 25%
+      - name: Unit Testing
+        level: 50%
+    frameworks:
+      - name: ICEFaces
+        level: 50%
+      - name: Log4j
+        level: 50% 
+      - name: SLF4j
+        level: 25%
+      - name: Spring
+        level: 75%           
+    web:
+      - name: Apache Tomcat
+        level: 75%
+      - name: Pivotal Cloud Foundry
+        level: 25%
+      - name: RedHat Linux
+        level: 75%
+      - name: REST
+        level: 50%
+      - name: SOAP
+        level: 75%
+      - name: Spring Boot
+        level: 50%
+    databases:
+      - name: Cassandra
+        level: 25%
+      - name: Hikari DB
+        level: 25%
+      - name: MySQL
+        level: 50%
+      - name: Oracle
+        level: 75%
+      - name: SOLR
+        level: 25%
 
 footer: >
     &copy; 2020 Abby McNaron -- Hosted on <a href="https://pages.github.com/" target="_blank" rel="nofollow"> GitHub Pages </a> <br>
