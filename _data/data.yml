@@ -105,11 +105,12 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Senior Programmer Analyst Advisor
+    - role: Software Engineer Advisor
       time: Mar 2020 - Present
       company: FedEx Services, Memphis TN
       details: |
         - Developed on a new REST web service to replace a legacy system and enable faster business functionality realization.
+        - Enhanced web service functionality per regulatory requirements.
     
     - role: Senior Programmer Analyst
       time: Aug 2017 - Mar 2020
