@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url("../fontawesome/css/fontawesome.css");
+
+.fa-code, .fa-database, .fa-users, .fa-file-code, .fa-server, .fa-tools, .fa-magnifying-glass {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 1.6875em 0;
+    padding: 0.35em 0 0 3.5em;
+    position: relative;
+    vertical-align: top;
+}
+
+.fa-code:before, .fa-database:before, .fa-users:before, .fa-file-code:before, .fa-server:before, .fa-tools:before, .fa-magnifying-glass:before {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    text-transform: none !important;
+    font-family: "Font Awesome 7 Free";
+    font-weight: 400;
+}
+
+.fa-code:before, .fa-database:before, .fa-users:before, .fa-file-code:before, .fa-server:before, .fa-tools:before, .fa-magnifying-glass:before {
+    background: #1d7236;
+    border-radius: 100%;
+    color: #ffffff;
+    display: block;
+    height: 2.5em;
+    left: 0;
+    line-height: 2.5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 2.5em;
+}
+
+.skillsblock {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+
+}
+
+.skillstable {
+    align-self: center;
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background:transparent;
+    box-shadow: none;
+}
+
+.skills-row {
+    background: transparent;
+    border: none;
+}
