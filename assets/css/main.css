@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("../fontawesome/css/fontawesome.css")
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
@@ -1922,7 +1922,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 7 Free';
 				font-weight: 900;
 			}
 
@@ -2026,7 +2026,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 7 Free';
 			font-weight: 400;
 		}
 
@@ -2043,7 +2043,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: "Font Awesome 7 Free";
 		}
 
 /* Image */
@@ -2204,9 +2204,9 @@ input, select, textarea {
 			border-radius: 0;
 		}
 
-			.image.main img {
-				border-radius: 0;
-			}
+		.image.main img {
+			border-radius: 0;
+		}
 
 /* List */
 
@@ -2373,7 +2373,7 @@ input, select, textarea {
 
 /* Feature Icons */
 
-	ul.feature-icons {
+	ul.feature-icons{
 		list-style: none;
 		padding-left: 0;
 	}
@@ -2397,7 +2397,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: 'Font Awesome 7 Free';
 				font-weight: 400;
 			}
 
@@ -2678,7 +2678,7 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 75%;
 		}
 
 			.features article .inner > :last-child {
@@ -2852,23 +2852,30 @@ input, select, textarea {
 			padding: 0;
 		}
 
-			#footer .copyright li {
-				border-left: solid 1px #d4d4d4;
-				display: inline-block;
-				font-size: 0.8em;
-				margin-left: 1em;
-				padding-left: 1em;
-			}
+		#footer .copyright li {
+			border-left: solid 1px #d4d4d4;
+			display: inline-block;
+			font-size: 0.8em;
+			margin-left: 1em;
+			padding-left: 1em;
+		}
 
-				#footer .copyright li:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding-left: 0;
-				}
+		#footer .copyright li:first-child {
+			border-left: 0;
+			margin-left: 0;
+			padding-left: 0;
+		}
 
-				#footer .copyright li a {
-					color: inherit;
-				}
+		#footer .copyright li:last-child {
+			border-left: 0;
+			margin-left: 0;
+			padding-left: 0;
+		}
+
+		#footer .copyright li a {
+			border: none;
+			color: inherit;
+		}
 
 /* XLarge */
 
@@ -3071,7 +3078,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: 'Font Awesome 7 Free';
 						font-weight: 900;
 					}
 
